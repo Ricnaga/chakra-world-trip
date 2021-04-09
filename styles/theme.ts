@@ -8,9 +8,11 @@ export const theme = extendTheme({
         },
         dark:{
             'Headings and Text':'#47585B',
+            'info':'#999999'
         },
-        yellow:{
-            100:'#FFBA08'
+        highlight:{
+            full:'#FFBA08',
+            half:'#FFBA08'
         }
     },
     fonts:{

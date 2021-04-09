@@ -1,8 +1,8 @@
 import { Box, Divider, Text } from '@chakra-ui/react';
-import { Banner } from '../components/Banner';
-import { Carousel } from '../components/Carousel';
+import { Banner } from '../components/Home/Banner';
+import { Carousel } from '../components/Home/Carousel';
 import { Header } from '../components/Header';
-import { Items } from '../components/Items';
+import { Items } from '../components/Home/Items';
 
 export default function Home() {
   return (
