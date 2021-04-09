@@ -12,7 +12,7 @@ export const theme = extendTheme({
         },
         highlight:{
             full:'#FFBA08',
-            half:'#FFBA08'
+            half:'rgb(255, 186, 8, .5)'
         }
     },
     fonts:{

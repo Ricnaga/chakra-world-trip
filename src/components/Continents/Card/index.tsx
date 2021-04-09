@@ -21,9 +21,10 @@ export default function Card({ imgPath, imgName, city, country }: CardProps) {
                 borderX="1px"
                 borderBottom="1px"
                 borderBottomRadius=".3rem"
-                borderLeftColor="highlight.half"
-                borderRightColor="highlight.half"
-                borderBottomColor="highlight.half"
+                borderColor="highlight.half"
+                _hover={{
+                    borderColor:'highlight.full'
+                }}
                 h="100%">
 
                 <Flex flexDir="column" my="1.2rem">
