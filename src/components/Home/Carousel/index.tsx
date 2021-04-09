@@ -14,37 +14,37 @@ export function Carousel() {
         slidesPerView={1}
       >
         <SwiperSlide>
-          <Slide imgPath="africa" imgName="egypt" title="africa">
+          <Slide imgPath="africa" imgName="alexandria-egypt" title="africa">
             Onde reside a história milenar.
          </Slide>
         </SwiperSlide>
 
         <SwiperSlide>
-          <Slide imgPath="asia" imgName="vietnam" title="asia">
+          <Slide imgPath="asia" imgName="ha-long-vietnam" title="asia">
           Maior continente e de história multicultural.
          </Slide>
         </SwiperSlide>
 
         <SwiperSlide>
-          <Slide imgPath="europe" imgName="ireland" title="europa">
+          <Slide imgPath="europe" imgName="dublin-ireland" title="europa">
           O continente mais antigo.
          </Slide>
         </SwiperSlide>
 
         <SwiperSlide>
-          <Slide imgPath="north-america" imgName="eua" title="américa do norte">
+          <Slide imgPath="north-america" imgName="washington-usa" title="américa do norte">
           A potência mundial.
          </Slide>
         </SwiperSlide>
 
         <SwiperSlide>
-          <Slide imgPath="oceania" imgName="australia" title="oceania">
+          <Slide imgPath="oceania" imgName="sydney-australia" title="oceania">
           O continente mais novo.
          </Slide>
         </SwiperSlide>
 
         <SwiperSlide>
-          <Slide imgPath="south-america" imgName="brazil" title="américa do sul">
+          <Slide imgPath="south-america" imgName="rio-de-janeiro-brazil" title="américa do sul">
           O maior continente latino.
          </Slide>
         </SwiperSlide>

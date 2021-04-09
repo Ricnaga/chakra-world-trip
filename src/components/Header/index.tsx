@@ -1,9 +1,17 @@
-import { Flex, Image } from "@chakra-ui/react";
+import { Flex, Icon, Image, Link } from "@chakra-ui/react";
+import { ElementType } from "react";
 
-export function Header() {
+interface HeaderProps {
+    icon?: ElementType;
+}
+
+export function Header({ icon }: HeaderProps) {
     return (
         <Flex align='center' justify='center' h='10vh'>
-            <Image src="logo.png" w={['8rem', '10rem']} alt="world trip" />
+            {icon &&  <Link href="/">
+                <Icon as={icon} pos="absolute" left={["1rem","4rem"]} top="1.6rem" fontSize="1.2rem" />
+                </Link> }
+            <Image src="logo.png" w={['6rem', '10rem']} alt="world trip" />
         </Flex>
     )
 }
