@@ -8,7 +8,7 @@
 #### 2. NextJS e seus hooks
 #### 3. Chakra UI e seus conceitos de interface declarativa
 #### 4. Component popover do Chakra UI
-#### 5. divisão da páginas em components
+#### 5. Divisão de páginas em components
 
 ## <div align="center"> Sumário </div>
 <!--ts-->
