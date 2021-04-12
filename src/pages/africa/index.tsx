@@ -19,15 +19,14 @@ export default function Africa() {
                     total da terra firme do planeta.
             </Text>
 
-                <Flex align="center" justify="space-evenly" w={["90vw", "36vw"]} mx="auto" my="1rem">
+                <Flex align="center" justify="space-evenly" w={["90vw", "36vw"]} mx="auto" my="1rem" >
                     <Countries title="50" content="países" />
                     <Countries title="60" content="línguas" />
-                    <MoreCities />
+                    <MoreCities />                    
                 </Flex>
 
-
             </Flex>
-            <Flex w={["80vw", "70vw"]} mx="auto" my={[0, "5rem"]} flexDir="column">
+            <Flex w={["80vw", "70vw"]} mx="auto" my={[0, "5rem"]} flexDir="column" mt="2rem">
                 <Text fontSize={["1.4rem", "2rem"]} fontWeight="500" color="dark.Headings and Text">Cidades +100</Text>
 
                 <SimpleGrid
